@@ -1,6 +1,6 @@
 # Selenium Grid Node - Chrome
 
-Selenium Node configured to run Google Chrome.
+Selenium Node configured to run Google Chrome. It differs from the original provided by Selenium in that it can handle 5 instances of chrome per container. To achieve this the config.json was updated accordingly.
 
 ## Dockerfile
 
