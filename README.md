@@ -4,7 +4,7 @@ Selenium Node configured to run Google Chrome.
 
 ## Dockerfile
 
-[`selenium/node-chrome` Dockerfile](https://github.com/SeleniumHQ/docker-selenium/blob/master/NodeChrome/Dockerfile)
+[`freddyvega/chrome-node` Dockerfile](https://github.com/freddyvega/chrome-node/blob/master/Dockerfile)
 
 ## How to use this image
 
