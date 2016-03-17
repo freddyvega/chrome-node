@@ -3,6 +3,11 @@ MAINTAINER Selenium <selenium-developers@googlegroups.com>
 
 USER root
 
+#=========================================
+# socat - required for port forwarding VNC
+#=========================================
+RUN apt-get update && sudo apt-get install socat
+
 #===============
 # Google Chrome
 #===============
