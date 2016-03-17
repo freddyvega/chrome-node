@@ -6,7 +6,9 @@ USER root
 #=========================================
 # socat - required for port forwarding VNC
 #=========================================
-RUN apt-get update && sudo apt-get install socat
+RUN apt-get update -qqy \
+  && apt-get -qqy install \
+    socat
 
 #===============
 # Google Chrome
